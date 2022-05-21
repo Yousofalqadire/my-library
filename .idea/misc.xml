@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/activity_all_books.xml" value="0.209375" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/activity_all_products.xml" value="0.209375" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/activity_book.xml" value="0.209375" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/activity_current_reading_books.xml" value="0.209375" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/activity_main_product2.xml" value="0.209375" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/activity_product.xml" value="0.209375" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/activity_want_to_read2.xml" value="0.209375" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/activity_web.xml" value="0.1" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/list_item_book_res_view.xml" value="0.1" />
+        <entry key="..\:/Users/Discovery PC/AndroidStudioProjects/MyLiblary/app/src/main/res/layout/product_list_item_rec.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

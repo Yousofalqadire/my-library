@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookActivity"
+    android:padding="20dp">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/header">
+
+     <ImageView
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:id="@+id/img"
+         android:layout_marginTop="20dp"
+         />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@id/img"
+         android:layout_marginLeft="10dp"
+         android:text="book name"
+         android:id="@+id/name"/>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@id/img"
+         android:layout_marginLeft="10dp"
+         android:id="@+id/author"
+         android:text="author"
+         android:layout_below="@id/name"
+         android:layout_marginTop="10dp"/>
+ </RelativeLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/description"
+      android:layout_below="@id/header"
+      android:layout_marginTop="20dp"
+      android:text="description"
+      android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:padding="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/addToCurrents"
+            android:text="Add To Currents"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/addToWanted"
+            android:text="Want To Read"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
