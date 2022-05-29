@@ -49,10 +49,10 @@ public class ProductActivity extends AppCompatActivity {
 
     }
     private void initWidgets(){
-        image = (ImageView) findViewById(R.id.individual_product_image);
-        price = (TextView) findViewById(R.id.individual_product_price);
-        brand = (TextView) findViewById(R.id.individual_product_brand);
-        btn = (Button) findViewById(R.id.individual_product_btn);
+        image =  findViewById(R.id.individual_product_image);
+        price =  findViewById(R.id.individual_product_price);
+        brand =  findViewById(R.id.individual_product_brand);
+        btn =  findViewById(R.id.individual_product_btn);
     }
 
     @Override
@@ -63,5 +63,36 @@ public class ProductActivity extends AppCompatActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public static class MainProductActivity2 extends AppCompatActivity {
+      private Button allProductsBtn,shoppingCartBtn;
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main_product2);
+            initWidgets();
+            setOnClick();
+        }
+        private void initWidgets(){
+            allProductsBtn = (Button) findViewById(R.id.all_products_btn);
+            shoppingCartBtn = (Button) findViewById(R.id.shop_cart_btn);
+        }
+        private void setOnClick(){
+            allProductsBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainProductActivity2.this,AllProductsActivity.class);
+                    startActivity(intent);
+                }
+            });
+            shoppingCartBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(MainProductActivity2.this,"shopping cart pressed",Toast.LENGTH_LONG)
+                            .show();
+                }
+            });
+        }
     }
 }

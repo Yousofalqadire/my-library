@@ -86,12 +86,12 @@ public class BookActivity extends AppCompatActivity {
     }
 
     private void initWidgets(){
-     name = (TextView) findViewById(R.id.name);
-     author = (TextView) findViewById(R.id.author);
-     image = (ImageView) findViewById(R.id.img);
-     description = (TextView) findViewById(R.id.description);
-     currentBtn = (Button) findViewById(R.id.addToCurrents);
-     wantBtn = (Button) findViewById(R.id.addToWanted);
+     name =  findViewById(R.id.name);
+     author = findViewById(R.id.author);
+     image =  findViewById(R.id.img);
+     description =  findViewById(R.id.description);
+     currentBtn =  findViewById(R.id.addToCurrents);
+     wantBtn =  findViewById(R.id.addToWanted);
     }
     private  void addToCurrentlyBooks(){
         boolean exist = false;

@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
         initOnClickListener();
     }
     private void initWidget(){
-        all_books_btn = (Button) findViewById(R.id.all_books_btn);
-        current_books_btn = (Button) findViewById(R.id.current_books_btn);
-        want_to_read_btn = (Button) findViewById(R.id.want_to_read_btn);
-        about_btn = (Button) findViewById(R.id.about_btn);
-        web_btn = (Button) findViewById(R.id.web_btn);
+        all_books_btn =  findViewById(R.id.all_books_btn);
+        current_books_btn =  findViewById(R.id.current_books_btn);
+        want_to_read_btn =  findViewById(R.id.want_to_read_btn);
+        about_btn =  findViewById(R.id.about_btn);
+        web_btn = findViewById(R.id.web_btn);
 
 
     }
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         about_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainProductActivity2.class);
+                Intent intent = new Intent(MainActivity.this, ProductActivity.MainProductActivity2.class);
                 startActivity(intent);
                 overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
 
